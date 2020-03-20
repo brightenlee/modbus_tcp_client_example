@@ -45,7 +45,7 @@ from std_msgs.msg import Bool
 
 class ModbusTcpNode:
     def __init__(self):
-        rospy.init_node("modbus_tcp_node", anonymous=True)
+        rospy.init_node("modbus_tcp_client_node", anonymous=True)
         rospy.Subscriber("/vacuum_gripper", Bool, self.callback)
 
         self.UNIT = 0x01
