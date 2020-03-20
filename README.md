@@ -1,5 +1,5 @@
-# Modbus/TCP Client Example
-Modbus/TCP Client Example for gripper control
+# Modbus/TCP Client Node
+Modbus/TCP Client Node for gripper control
 
 ```
 pip install -U pymodbus
